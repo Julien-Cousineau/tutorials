@@ -1,8 +1,15 @@
-# Add simple bash script to push
-Add push.sh to top directory
-```
-chmod +x ./push.sh
-./push.sh "added push file"
+# Starting new project ...
+```bash
+git --bare init
+git remote add origin git@github.com:Julien-Cousineau/slf-py.git
+git remote set-url origin git@github.com:Julien-Cousineau/XXXX.git
+git pull origin master
+
+git clone git@github.com:Julien-Cousineau/tutorials.git ./github/template
+
+# rename folder
+cd folder
+./createFolders_lib.sh
 ```
 # Simple Command
 ```bash
@@ -29,6 +36,7 @@ touch .gitignore
 /folder
 
 ```
+
 # Installation
 ```bash
 sudo apt-get install -y git
