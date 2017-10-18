@@ -1,15 +1,18 @@
 # Starting new project ...
 ```bash
-git --bare init
+git init
 git remote add origin git@github.com:Julien-Cousineau/slf-py.git
-git remote set-url origin git@github.com:Julien-Cousineau/XXXX.git
+git remote set-url origin git@github.com:Julien-Cousineau/slf-py.git
 git pull origin master
 
-git clone git@github.com:Julien-Cousineau/tutorials.git ./github/template
+cp ~/workspace/tutorials/github/template/createFolders_lib.sh ./createFolders_lib.sh
+cp ~/workspace/tutorials/github/template/README.md ./README.md
+cp ~/workspace/tutorials/github/template/push.sh ./push.sh
 
-# rename folder
-cd folder
+chmod +x ./createFolders_lib.sh
+chmod +x ./push.sh
 ./createFolders_lib.sh
+./push.sh
 ```
 # Simple Command
 ```bash
