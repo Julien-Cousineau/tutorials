@@ -1,3 +1,9 @@
+# Add simple bash script to push
+Add push.sh to top directory
+```
+chmod +x ./push.sh
+./push.sh "added push file"
+```
 # Simple Command
 ```bash
 # Initilized git repo
@@ -40,9 +46,3 @@ ssh-keygen -t rsa -b 4096 -C "julien.cousineau@gmail.com"
 * Change Title
 * Add key
 
-## Add simple bash script to push
-Add push.sh to top directory
-```
-chmod +x ./push.sh
-./push.sh "added push file"
-```
