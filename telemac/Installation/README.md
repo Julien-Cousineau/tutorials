@@ -99,3 +99,7 @@ If Python, GFortran or MPICH2 is already installed, it is recommend to uninstall
 1.	Open a command prompt (press Windows key or Start, enter “cmd”, and press Enter), and enter “cd C:\opentelemac\v7p0r1\examples\telemac2d\bj78”.
 2.	(Scalar Mode) In the command-prompt, enter “telemac2d.py t2d_bj78.cas”. It should say “My work is done” at the end of the simulation.
 3.	(Parallel Mode) In the command-prompt, enter “telemac2d.py –c wing64mpi --ncsize 2 t2d_bj78.cas”. It should say “My work is done” at the end of the simulation.
+
+
+# UBUNTU
+svn co "http://svn.opentelemac.org/svn/opentelemac/tags/v7p2r0/scripts/python27/parsers/" ~/workspace/temp –username=ot-svn-public –password=telemac1*
