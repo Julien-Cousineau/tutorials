@@ -44,4 +44,5 @@ ssh-keygen -t rsa -b 4096 -C "julien.cousineau@gmail.com"
 Add push.sh to top directory
 ```
 chmod +x ./push.sh
+./push.sh "added push file"
 ```
