@@ -30,3 +30,12 @@ sudo make install
 # Postgres 
 
 ```
+# Add script to environment
+```bash
+Add path to: 
+export PATH="$PATH:~/workspace/slf-py/src"
+export PYTHONPATH=~/workspace/slf-py/src
+source ~/.profile
+chmod +x xxxx.py 
+
+xxx.py

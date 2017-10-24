@@ -13,6 +13,8 @@ chmod +x ./createFolders_lib.sh
 chmod +x ./push.sh
 ./createFolders_lib.sh
 ./push.sh
+export PATH=$PATH:~/workspace/slf-py/src
+EXPORT PYTHONPATH=$PYTHONPATH:~/workspace/slf-py/src
 ```
 # Simple Command
 ```bash
