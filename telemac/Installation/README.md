@@ -103,3 +103,6 @@ If Python, GFortran or MPICH2 is already installed, it is recommend to uninstall
 
 # UBUNTU
 svn co "http://svn.opentelemac.org/svn/opentelemac/tags/v7p2r0/scripts/python27/parsers/" ~/workspace/temp –username=ot-svn-public –password=telemac1*
+
+svn co "http://svn.opentelemac.org/svn/opentelemac/tags/v7p2r0/scripts/python27/parsers/" ~/workspace/temp –username=ot-svn-public –password=telemac1*
+svn co "http://svn.opentelemac.org/svn/opentelemac/tags/v7p2r0/scripts/python27/utils/" ~/workspace/temp –username=ot-svn-public –password=telemac1*

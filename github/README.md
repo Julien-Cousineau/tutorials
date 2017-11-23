@@ -1,8 +1,8 @@
 # Starting new project ...
 ```bash
 git init
-git remote add origin git@github.com:Julien-Cousineau/slf-py.git
-git remote set-url origin git@github.com:Julien-Cousineau/slf-py.git
+git remote add origin git@github.com:Julien-Cousineau/meittool.git
+git remote set-url origin git@github.com:Julien-Cousineau/meittool.git
 git pull origin master
 
 cp ~/workspace/tutorials/github/template/createFolders_lib.sh ./createFolders_lib.sh
@@ -20,8 +20,8 @@ EXPORT PYTHONPATH=$PYTHONPATH:~/workspace/slf-py/src
 ```bash
 # Initilized git repo
 git --bare init
-git remote add origin git@github.com:Julien-Cousineau/XXXX.git
-git remote set-url origin git@github.com:Julien-Cousineau/XXXX.git
+git remote add origin git@github.com:Julien-Cousineau/slf-js.git
+git remote set-url origin git@github.com:Julien-Cousineau/slf-js.git
 
 # Pull git repo
 git pull origin master
@@ -47,6 +47,28 @@ touch .gitignore
 sudo apt-get install -y git
 git config --global user.name "jcousineau"
 git config --global user.email "julien.cousineau@gmail.com"
+```
+# NPM
+```bash
+npm set init.author.name "Julien Cousineau"
+npm set init.author.email "julien.cousineau@google.com"
+
+
+npm adduser
+
+
+cd /path/to/your-project
+npm init
+
+npm install -g pakmanager
+# this shows you dependencies as you `require`d them
+pakmanager deps
+# now edit `package.json` and add any deps you forgot about
+
+npm publish ./
+
+npm update slf-js
+
 ```
 
 ## Connecting to GitHub with SSH
