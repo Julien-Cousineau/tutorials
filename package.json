@@ -1,0 +1,25 @@
+{
+  "name": "tutorials",
+  "version": "1.0.0",
+  "description": "Template and tutorials for a number of applications and programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julien-Cousineau/tutorials.git"
+  },
+  "author": "Julien Cousineau <julien.cousineau@google.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julien-Cousineau/tutorials/issues"
+  },
+  "homepage": "https://github.com/Julien-Cousineau/tutorials#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "azure-storage": "^2.6.0",
+    "dotenv": "^4.0.0",
+    "pretty-bytes": "^4.0.2"
+  }
+}

@@ -1,9 +1,11 @@
 # Starting new project ...
 ```bash
 git init
-git remote add origin git@github.com:Julien-Cousineau/meittool.git
-git remote set-url origin git@github.com:Julien-Cousineau/meittool.git
+git remote add origin git@github.com:Julien-Cousineau/MNRF.git
+git remote set-url origin git@github.com:Julien-Cousineau/MNRF.git
 git pull origin master
+
+
 
 cp ~/workspace/tutorials/github/template/createFolders_lib.sh ./createFolders_lib.sh
 cp ~/workspace/tutorials/github/template/README.md ./README.md
@@ -13,8 +15,16 @@ chmod +x ./createFolders_lib.sh
 chmod +x ./push.sh
 ./createFolders_lib.sh
 ./push.sh
+
 export PATH=$PATH:~/workspace/slf-py/src
 EXPORT PYTHONPATH=$PYTHONPATH:~/workspace/slf-py/src
+
+for MNRF
+git init
+git remote add origin git@github.com:Julien-Cousineau/MNRF.git
+git fetch
+
+git pull
 ```
 # Simple Command
 ```bash
@@ -31,6 +41,10 @@ git pull origin master
 git add . 
 git commit -m "comment here"
 git push -u origin master
+
+# Pull git repo
+git fetch --all;git reset --hard origin/master;git pull origin master;
+
 
 # Push specific files
 git add README.md setup.sh process/*.py process/sql/*.sql server/api/*.js server/api/*.json server/*.sh
@@ -81,3 +95,8 @@ ssh-keygen -t rsa -b 4096 -C "julien.cousineau@gmail.com"
 * Change Title
 * Add key
 
+
+
+git rm env.local --cached
+git rm env.staging --cached
+git commit -m "Stopped tracking env.local, and env.staging"
