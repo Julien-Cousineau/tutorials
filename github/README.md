@@ -1,3 +1,8 @@
+
+# Connect Github with AWS
+From laptop, copy `id_rsa.pub` and `id_rsa` in the `~./ssh`  folder
+
+
 # Starting new project ...
 ```bash
 git init
