@@ -101,7 +101,7 @@ ssh-keygen -t rsa -b 4096 -C "julien.cousineau@gmail.com"
 * Add key
 
 
-
+## Remove folders from repo
 git rm env.local --cached
 git rm env.staging --cached
 git commit -m "Stopped tracking env.local, and env.staging"
