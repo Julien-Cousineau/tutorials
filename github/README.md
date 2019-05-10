@@ -1,7 +1,8 @@
 
 # Connect Github with AWS
 From laptop, copy `id_rsa.pub` and `id_rsa` in the `~./ssh`  folder
-
+sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
 
 # Starting new project ...
 ```bash
