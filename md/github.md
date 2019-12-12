@@ -11,8 +11,6 @@ git remote add origin git@github.com:Julien-Cousineau/MNRF.git
 git remote set-url origin git@github.com:Julien-Cousineau/MNRF.git
 git pull origin master
 
-
-
 cp ~/workspace/tutorials/github/template/createFolders_lib.sh ./createFolders_lib.sh
 cp ~/workspace/tutorials/github/template/README.md ./README.md
 cp ~/workspace/tutorials/github/template/push.sh ./push.sh
