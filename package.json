@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Template and tutorials for a number of applications and programming",
   "main": "index.js",
+  "example": "npm run git --comment='MyComment'",
   "scripts": {
-    "git": "git add . && git commit -m '$npm_config_comment' && git push -u origin master",
+    "git": "git add . && git commit -m $npm_config_comment && git push -u origin master",
     "print": "echo $npm_config_comment",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
