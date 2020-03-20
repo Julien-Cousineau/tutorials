@@ -50,6 +50,7 @@ git push -u origin master
 git fetch --all;git reset --hard origin/master;git pull origin master;
 
 
+
 # Push specific files
 git add README.md setup.sh process/*.py process/sql/*.sql server/api/*.js server/api/*.json server/*.sh
 
@@ -57,6 +58,10 @@ git add README.md setup.sh process/*.py process/sql/*.sql server/api/*.js server
 touch .gitignore
 # In .gitignore
 /folder
+
+#
+git checkout -b branchname
+
 
 ```
 
