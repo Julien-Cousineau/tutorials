@@ -89,4 +89,31 @@ conda update conda
    conda remove -n yourenvname -all
    ```
 
-   
+#### 8. Publish 
+
+
+```bash
+#Login
+conda install anaconda-client
+anaconda login
+anaconda logout
+conda config --set anaconda_upload yes
+
+# New project
+conda skeleton pypi {name} # name of package
+
+conda-build --user MERACAN --token {token} {name}
+
+#Optional
+conda-build --python 3.8 {...}
+
+# Optional convert to all platform
+conda convert --platform all conda convert --platform all /home/ec2-user/anaconda3/conda-bld/linux-64/click-7.1.1-py37_0.tar.bz2 -o build/
+```
+In meta.yaml
+For skeleton: check https://github.com/conda-forge/staged-recipes/blob/master/recipes/example/meta.yaml
+```
+build:
+   noarch: python
+
+```
