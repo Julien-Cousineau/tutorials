@@ -99,6 +99,8 @@ anaconda login
 anaconda logout
 conda config --set anaconda_upload yes
 
+conda config --add channels conda-forge meracan
+
 # New project
 conda skeleton pypi {name} # name of package
 
