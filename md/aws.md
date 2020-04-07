@@ -16,11 +16,14 @@
 ## Credentials
 ```
 ~/.aws/credentials
-[default]
+[project1]
 aws_access_key_id = your_access_key_id
 aws_secret_access_key = your_secret_access_key
 ```
 ```
 export AWS_ACCESS_KEY_ID=your_access_key_id
 export AWS_SECRET_ACCESS_KEY=your_secret_access_key
+```
+```
+AWS_PROFILE=project1 aws s3 cp ./s3 s3://polar-public/ --recursive
 ```
