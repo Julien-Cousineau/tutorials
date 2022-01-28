@@ -13,7 +13,8 @@
 ### Install Anaconda on Linux
 
 ```bash
-curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+
+curl -O https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 bash Anaconda3-2019.03-Linux-x86_64.sh
 source ~/.bashrc
 conda list
